@@ -1,0 +1,112 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+ background: #69A77C;
+
+ .nav-bar ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+ }
+.nav-bar li{
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  a{
+  color: white;
+  }
+}
+
+.button-container{
+  text-align: center;
+  background:  #69A77C;
+  padding: 20px;
+  border-color: white;
+ }
+
+.artists-header{
+  text-align: center;
+  font-family: serif;
+  background: white;
+  padding-bottom: 40px;
+  padding-top: 0px;
+  width: 90%;
+  margin: 0 auto;
+  h1{
+  font-size: 40px;
+  }
+  p{
+  font-family: sans-serif;
+  }
+ }
+ .small-but-background{
+  background: url("../images/assets/solrod-team-background.jpg")center center no-repeat;
+  background-size: cover;
+  height: 100%;
+ }
+ .small-but-font{
+   position: relative;
+   top: 25%;
+   left: 25%;
+   height: 50%;
+   width: 50%;
+ }
+
+.text-container{
+  text-align: center;
+  font-family: serif;
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  h1{
+  font-size: 50px;
+  }
+ }
+.row{
+padding:60px;
+ }
+
+ .dragon-photo{
+  background: url("../images/assets/solrod-drawingboard-background.jpg")center center no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+ }
+
+ .inner-button{
+   margin-left: 48%;
+   margin-right: 35%;
+   button{
+  size: 50px;
+  margin-top: 55%;
+  color: white;
+  background-color: lightblue;
+     }
+ }
+
+
+@media screen and (max-width: 768px){
+.small-but-background{
+  display:none;
+}
+
+.text-container{
+  h1{
+    color: black;
+ }
+  p{
+    color: grey;
+    }
+   }
+  }
+}
